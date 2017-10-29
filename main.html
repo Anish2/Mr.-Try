@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+
+    <style>
+        input[type="radio"] {
+            display: none;
+        }
+
+        img {
+            padding: 5px;
+            margin: 5px;
+        }
+
+        input[type="radio"]:checked+img {
+            background-color: rgb(58, 96, 221);
+        }
+
+        button {
+            cursor: pointer;
+            outline: none;
+        }
+
+        button.outline {
+            position: relative;
+            z-index: 3;
+            background: transparent;
+            color: #1172c4;
+            font-size: 14px;
+            border-color: #1172c4;
+            border-style: solid;
+            border-width: 2px;
+            border-radius: 22px;
+            padding: 10px 40px;
+            text-transform: uppercase;
+            transition: all 0.2s linear;
+        }
+
+        button.outline a {
+            text-decoration: none;
+        }
+
+        button.outline:hover {
+            color: white;
+            background: #1172c4;
+            border-color: white;
+            transition: all 0.2s linear;
+        }
+
+        button.outline:active {
+            border-radius: 22px;
+        }
+
+        button.white-blue {
+            font-weight: 700;
+            color: #00aeef;
+            border-color: white;
+            background: white;
+        }
+
+        button.white-blue:hover {
+            color: white;
+            background: #00aeef;
+            border-color: white;
+        }
+
+        button.white-green {
+            font-weight: 700;
+            color: #7dc21e;
+            border-color: white;
+            background: white;
+        }
+
+        button.white-green:hover {
+            color: white;
+            background: #7dc21e;
+            border-color: white;
+        }
+
+        button.green-white {
+            font-weight: 700;
+            color: #7dc21e;
+            border-color: #7dc21e;
+            background: transparent;
+        }
+
+        button.green-white:hover {
+            color: white;
+            background: #7dc21e;
+            border-color: #7dc21e;
+        }
+
+        button.purple-white {
+            font-weight: 700;
+            color: #664e96;
+            border-color: #664e96;
+            background: transparent;
+        }
+
+        button.purple-white:hover {
+            color: white;
+            background: #664e96;
+            border-color: #664e96;
+        }
+
+        button.white-purple {
+            font-weight: 700;
+            color: #664e96;
+            border-color: white;
+            background: white;
+        }
+
+        button.white-purple:hover {
+            color: white;
+            background: #664e96;
+            border-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">Mr. Try
+        </a>
+    </nav>
+
+    <div class="container">
+        <br />
+        <div class="row">
+            <h3 class="mx-auto">Choose Furniture</h3>
+        </div>
+        <div class="row">
+            <label class="mx-auto">
+                <input type="radio" name="images" />
+                <img src="http://placekitten.com/192/108" />
+            </label>
+        </div>
+        <div class="row">
+            <label class="mx-auto">
+                <input type="radio" name="images" />
+                <img src="http://placekitten.com/192/108" />
+            </label>
+        </div>
+        <div class="row">
+            <button type="submit" class="mx-auto outline purple-white">View AR</button>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
